@@ -1,0 +1,96 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .login-form > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .error-message {
+    color: red;
+    margin: 10px;
+  }
+
+  
+  .login-form>div label{
+    font-weight: bold;
+    padding-left: 10px;
+    align-self:flex-start;
+  }
+  .login-form input {
+     
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ 
+  .login-form button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button[disabled] {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  #login-button-controller{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    justify-content: space-around;
+  }
+  
+
+.Register-btn-container{
+  font-weight:600;
+  flex-direction:row;
+  /* width:100%; */
+  /* disa */
+  /* height:20vh; */
+  display:flex;
+  /* background-color:blue; */
+}
+
+.Register-btn-container span{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:lightgreen;
+  padding:10px 30px;
+  border-radius:5px;
+}
+
+.Register-btn-container button{
+  width:280px;
+}

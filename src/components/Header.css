@@ -1,0 +1,56 @@
+/* Header.css */
+.header-container {
+    background-color: #002;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-list.left-nav {
+    flex-grow: 1;
+  }
+  
+  .nav-list.right-nav {
+    flex-grow: 0;
+    cursor: pointer;
+  }  
+  
+  .nav-item {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-item {
+      margin: 10px 0;
+    }
+  }
+  
